@@ -93,7 +93,7 @@ export const resume = {
             ],
             links: {
                 github: "https://github.com/VanshKardam/Graph-Theory-Tool", // Placeholder
-                demo: "https://github.com/VanshKardam/Graph-Theory-Tool",   // Placeholder
+                demo: "https://graph-theory-tool.vercel.app/",   // Placeholder
             },
         },
     ],
