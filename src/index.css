@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Dark blue-green gradient base */
+    background: linear-gradient(135deg, #0A1628 0%, #0D1F2D 50%, #0A1A14 100%);
+    background-attachment: fixed;
+    color: #E2E8F0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F1F5F9;
+}
+
+/* Dark Glassmorphism utilities */
+.glass {
+    background: rgba(15, 30, 50, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(100, 200, 180, 0.15);
+}
+
+.glass-card {
+    background: rgba(15, 30, 50, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(100, 200, 180, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Aurora blob base */
+.aurora-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Gradient text utility */
+.text-gradient {
+    background: linear-gradient(135deg, #34D399, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Glow effects */
+.glow-teal {
+    box-shadow: 0 0 30px rgba(45, 212, 191, 0.3);
+}
+
+.glow-blue {
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+}
