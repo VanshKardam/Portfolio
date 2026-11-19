@@ -3,8 +3,10 @@ import { motion } from 'framer-motion';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Hero from './sections/Hero';
-import Skills from './sections/Skills';
+import Experience from './sections/Experience';
 import Projects from './sections/Projects';
+import Skills from './sections/Skills';
+import Achievements from './sections/Achievements';
 import Education from './sections/Education';
 import Coursework from './sections/Coursework';
 import Contact from './sections/Contact';
@@ -97,8 +99,10 @@ function App() {
                 <Navbar />
                 <main>
                     <Hero />
-                    <Skills />
+                    <Experience />
                     <Projects />
+                    <Skills />
+                    <Achievements />
                     <Education />
                     <Coursework />
                     <Contact />
